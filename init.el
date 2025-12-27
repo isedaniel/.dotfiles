@@ -23,7 +23,7 @@
 
 ;; set theme
 (load-theme 'modus-vivendi t)
-(set-face-attribute 'default nil :font "Monospace" :height 120)
+(set-face-attribute 'default nil :font "DejaVu Sans Mono" :height 120)
 
 ;; set package
 (require 'package)
@@ -44,3 +44,4 @@
 
 (require 'evil)
 (evil-mode 1)
+
