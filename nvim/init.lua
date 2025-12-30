@@ -32,7 +32,6 @@ vim.o.list = true
 vim.o.confirm = true
 
 -- [[ Set up keymaps ]] 
--- See `:h vim.keymap.set()`, `:h mapping`, `:h keycodes`
 
 -- Use <Esc> to exit terminal mode
 vim.keymap.set('t', '<Esc>', '<C-\\><C-n>')
