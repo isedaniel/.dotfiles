@@ -8,6 +8,7 @@
 (recentf-mode 1)
 (save-place-mode 1)
 (global-auto-revert-mode 1) ;; auto refresh changed files
+(column-number-mode 1)
 
 ;; set history
 (setq history-length 25)
@@ -45,3 +46,16 @@
 (require 'evil)
 (evil-mode 1)
 
+;; add M-x interface with Ido-style fuzzy matching
+(unless (package-installed-p 'smex)
+  (package-install 'smex))
+
+(global-set-key (kbd "M-x") 'smex)
+
+;; add a completing-read-function using ido
+(unless (package-installed-p 'ido-completing-read+)
+  (package-install 'ido-completing-read+))
+
+(ido-mode 1)
+(ido-everywhere 1)
+(ido-ubiquitous-mode 1)
