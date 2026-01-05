@@ -199,3 +199,5 @@ exec --no-startup-id "setxkbmap -layout us -variant altgr-intl"
 # Brave
 bindsym $mod+b exec brave-browser
 
+# Printscreen
+bindsym Print exec maim -s | xclip -selection clipboard -t image/png
