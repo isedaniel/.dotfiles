@@ -204,3 +204,9 @@ bindsym Print exec maim -s | xclip -selection clipboard -t image/png
 
 # Calc start as floating window
 for_window [class="Galculator"] floating enable, move position 1100 600
+
+# Move current window to scratchpad
+bindsym $mod+Shift+minus move scratchpad
+
+# Show first scratchpad window
+bindsym $mod+minus scratchpad show
