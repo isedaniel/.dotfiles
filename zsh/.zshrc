@@ -16,5 +16,5 @@ zstyle ':vcs_info:git:*' formats '%b '
 setopt prompt_subst
 
 # set prompt
-export PROMPT=$'%F{green}%n@%m%f %F{cyan}%~%f %F{202}${vcs_info_msg_0_}%f\n # '
+export PROMPT=$'%F{green}%n@%m%f %F{cyan}%~%f %F{202}${vcs_info_msg_0_}%f\n %# '
 
