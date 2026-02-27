@@ -190,7 +190,7 @@ bar {
         status_command i3status
 }
 
-# My config
+# my config
 # config touchpad
 exec xinput set-prop "Synaptics TM3336-004" "libinput Tapping Enabled" 1
 exec xinput set-prop "Synaptics TM3336-004" "libinput Natural Scrolling Enabled" 1
@@ -199,7 +199,7 @@ exec xinput set-prop "Synaptics TM3336-004" "libinput Natural Scrolling Enabled"
 exec --no-startup-id "setxkbmap -layout us -variant altgr-intl"
 
 # set brave shortcut
-bindsym $mod+b exec brave-browser
+bindsym $mod+n exec brave-browser
 
 # set printscreen
 bindsym Print exec maim -s | xclip -selection clipboard -t image/png
@@ -212,5 +212,4 @@ bindsym $mod+Shift+minus move scratchpad
 
 # show first scratchpad window
 bindsym $mod+minus scratchpad show
-
 
