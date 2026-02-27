@@ -5,6 +5,13 @@ vim.g.mapleader = ' '
 -- Show line numbers
 vim.o.number = true
 
+-- Replace \t with 4 spaces
+vim.opt.expandtab = true
+vim.opt.tabstop = 4
+
+-- Set number of spaces added by >> and <<
+vim.opt.shiftwidth = 4
+
 -- Sync system clipboard
 vim.api.nvim_create_autocmd('UIEnter', {
   callback = function()
