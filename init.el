@@ -40,11 +40,11 @@
 (load custom-file 'noerror 'nomessage)
 
 ;; set evil-mode
-(unless (package-installed-p 'evil)
-  (package-install 'evil))
+;;(unless (package-installed-p 'evil)
+;;  (package-install 'evil))
 
-(require 'evil)
-(evil-mode 1)
+;;(require 'evil)
+;;(evil-mode 1)
 
 ;; add M-x interface with Ido-style fuzzy matching
 (unless (package-installed-p 'smex)
