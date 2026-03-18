@@ -9,6 +9,9 @@ vim.o.number = true
 vim.opt.expandtab = true
 vim.opt.tabstop = 4
 
+-- Show column 80
+vim.opt.colorcolumn = "80"
+
 -- Set number of spaces added by >> and <<
 vim.opt.shiftwidth = 4
 
