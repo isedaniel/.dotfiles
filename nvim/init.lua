@@ -2,6 +2,9 @@
 -- Set leader
 vim.g.mapleader = ' '
 
+-- Set colorscheme
+vim.cmd("colorscheme lunaperche")
+
 -- Show line numbers
 vim.o.number = true
 
