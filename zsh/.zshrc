@@ -18,3 +18,6 @@ setopt prompt_subst
 # set prompt
 export PROMPT=$'%F{green}%n@%m%f %F{cyan}%~%f %F{202}${vcs_info_msg_0_}%f\n %# '
 
+# set ll alias
+alias ll="ls -l"
+
