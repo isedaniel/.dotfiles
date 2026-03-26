@@ -44,7 +44,8 @@ vim.o.list = true
 -- Ask for saving changes on exit
 vim.o.confirm = true
 
--- [[ Set up keymaps ]] 
+-- Set <Leader>e to enter netrw
+vim.keymap.set('n', '<Leader>e', ':Ex<CR>')
 
 -- Use <Esc> to exit terminal mode
 vim.keymap.set('t', '<Esc>', '<C-\\><C-n>')
